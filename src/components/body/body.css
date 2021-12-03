@@ -1,0 +1,491 @@
+.wrapper {
+  display: flex;
+  height: 100vh !important;
+  overflow: hidden;
+  width: 100%;
+}
+
+.sidebar {
+  display: none;
+}
+
+.sidebar-top {
+  height: 250px;
+  width: inherit;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.sidebar-link {
+  text-decoration: none;
+  color: #c9d6ff;
+  text-transform: uppercase;
+  font-size: 1.3rem;
+  font-weight: 700;
+  letter-spacing: 0.3rem;
+  font-family: "Saira Extra Condensed", sans-serif;
+  text-align: center;
+  padding-bottom: 1.2rem;
+  cursor: pointer;
+}
+
+.sidebar-link:hover {
+  color: white;
+}
+
+.dp {
+  height: 180px;
+  width: 180px;
+  object-fit: cover;
+  border-radius: 50%;
+  border: 4px solid #c9d6ff;
+  cursor: pointer;
+}
+
+.dp:hover {
+  border-color: white;
+}
+
+.sidebar-content {
+  padding-top: 2em;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+
+.sidebar-list {
+  list-style: none;
+  padding: 0;
+}
+
+.right-wrapper {
+  display: flex;
+  flex: 10;
+  position: relative;
+  overflow-y: scroll;
+  flex-direction: column;
+  height: 100%;
+  /* background-color: rgb(15, 14, 14); */
+  /* background-color: #111821; */
+  /* background-image: url("design.svg");
+  background-repeat: no-repeat; */
+}
+
+.about-section {
+  height: auto;
+  padding: 3rem 3rem 1rem 3rem;
+  position: relative;
+  /* overflow: hidden; */
+  /* background-color: #111821; */
+  background-color: #ffffff;
+  /* background-color: rgb(29, 28, 28); */
+}
+
+.about-section::after {
+  content: "";
+  background: #000046;
+  display: block;
+  width: 100%;
+  height: 1px;
+}
+
+.title {
+  font-size: 6rem;
+  font-family: "Saira Extra Condensed", sans-serif;
+  font-weight: 700;
+  margin: 3rem 0 0 0rem;
+  line-height: 5.5rem;
+  letter-spacing: 3px;
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+  /* color: #fff !important; */
+  color: rgb(53, 51, 51) !important;
+  font-family: "Saira Extra Condensed", sans-serif;
+  margin: 0;
+  letter-spacing: 3px !important;
+}
+
+.text-secondary {
+  color: #fff;
+}
+
+.text-primary {
+  /* color: #f00000 !important; */
+  background: linear-gradient(45deg, #000046, #1cb5e0, #000046);
+  /* background: -webkit-linear-gradient(45deg, #11998e, #38ef7d); */
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+}
+
+.short-bio-wrapper {
+  margin: 0;
+}
+
+.short-bio {
+  font-size: 1.5rem;
+}
+
+.bio-wrapper {
+  margin: 0;
+}
+
+#bio {
+  /* color: #fff; */
+  margin-top: 1rem;
+  color: rgb(53, 51, 51) !important;
+  font-size: 1.3rem;
+  font-weight: 500;
+  letter-spacing: 0.1rem;
+  font-family: "Saira Extra Condensed", sans-serif;
+}
+
+.links {
+  /* color: #fff; */
+  color: rgb(53, 51, 51) !important;
+  list-style: none;
+  display: flex;
+  padding: 0;
+  margin-bottom: 3rem;
+  width: 20%;
+  justify-content: space-around;
+}
+
+.link-item {
+  font-size: 200%;
+  cursor: pointer !important;
+  z-index: 10;
+}
+
+/* 
+  ******************
+  EXPERIENCE SECTION
+  ******************
+*/
+
+ul li a {
+  display: block;
+}
+
+.experience-section {
+  height: auto;
+  padding: 3rem 3rem 1rem 3rem;
+  /* background-color: #e9cf40; */
+  /* background-color: #111821; */
+  background-color: #fff;
+  position: relative;
+  /* overflow: hidden; */
+}
+
+.experience-section::after {
+  content: "";
+  background: #000046;
+  display: block;
+  width: 100%;
+  height: 1px;
+}
+
+.section-heading {
+  font-size: 2rem;
+}
+
+.work-ex-heading {
+  font-weight: bolder;
+  font-size: 3.2rem;
+}
+
+/* .work-ex-heading::after {
+  content: "";
+  height: 2px;
+  display: block;
+  background: black;
+  width: 25%;
+} */
+
+/*experience content block*/
+
+.experience-content-block {
+  display: flex;
+  margin-top: 3rem;
+  margin-bottom: 3rem;
+}
+
+.experience-content-left {
+  display: flex;
+  flex-direction: column;
+  flex: 9;
+}
+
+.experience-heading {
+}
+
+.experience-sub-heading {
+  color: rgb(173, 22, 22) !important;
+  margin-bottom: 1rem;
+}
+
+.experience-info {
+  margin-bottom: 1rem;
+  /* color: #fff; */
+  color: rgb(53, 51, 51) !important;
+}
+
+.experience-info > p {
+  margin: 0;
+  font-size: 1.04rem !important;
+  letter-spacing: 1.5px !important;
+  line-height: 1.5;
+}
+
+.experience-content-right {
+  display: flex;
+  flex-direction: column;
+  flex: 3;
+}
+
+.experience-dates {
+  text-align: center;
+  margin-bottom: 1rem;
+}
+
+.experience-company-img {
+  height: 60%;
+  width: 100%;
+  margin-bottom: 25px;
+}
+.experience-company-img > img {
+  height: 100%;
+  width: 100%;
+  object-fit: contain;
+}
+
+.img-container {
+  height: 100%;
+  width: 100%;
+  margin-bottom: 25px;
+  overflow: hidden;
+  position: relative;
+  top: -50%;
+  left: 55%;
+  z-index: 10;
+}
+
+.img {
+  height: 100%;
+  width: 100%;
+  object-fit: contain;
+  animation: rotation 60s linear infinite;
+}
+.img-container2 {
+  height: 40%;
+  width: 40%;
+  /* height: 100%;
+  width: 100%; */
+  margin-bottom: 25px;
+  overflow: hidden;
+  position: relative;
+  top: -179%;
+  left: -25%;
+  z-index: 10;
+  margin: 0;
+}
+
+.img2 {
+  height: 100%;
+  width: 100%;
+  object-fit: contain;
+  animation: rotation 60s linear infinite;
+}
+.img-container3 {
+  height: 100%;
+  width: 100%;
+  margin-bottom: 25px;
+  overflow: hidden;
+  position: relative;
+  top: -170%;
+  left: -34%;
+  z-index: 0;
+}
+
+.img3 {
+  height: 60%;
+  width: 60%;
+  object-fit: contain;
+  animation: rotation 60s linear infinite;
+}
+.img-container4 {
+  height: 60%;
+  width: 60%;
+  margin-bottom: 25px;
+  overflow: hidden;
+  position: relative;
+  top: -118%;
+  left: 75%;
+  z-index: 0;
+}
+
+.img4 {
+  height: 100%;
+  width: 100%;
+  object-fit: contain;
+  animation: rotation 60s linear infinite;
+}
+
+@keyframes rotation {
+  from {
+    transform: rotate(0deg);
+  }
+  to {
+    transform: rotate(360deg);
+  }
+}
+
+/**** skills list body ***/
+
+.skills-list-body {
+  margin: 2rem 0 2rem 0;
+}
+
+.skills-list {
+  display: flex;
+  list-style: none;
+  justify-content: space-evenly;
+  padding: 0;
+}
+
+/**************************/
+
+/***** EDUCATION SECTION *****/
+
+.education-section {
+  height: auto;
+  padding: 3rem 3rem 1rem 3rem;
+  /* background-color: #e9cf40; */
+  /* background-color: #111821; */
+  background-color: #fff;
+  position: relative;
+  /* overflow: hidden; */
+}
+
+.education-section::after {
+  content: "";
+  background: #000046;
+  display: block;
+  width: 100%;
+  height: 1px;
+}
+
+.education-heading {
+  /* font-size: 1.8rem; */
+  text-transform: uppercase;
+}
+
+.education-sub-heading {
+  margin-top: 0.5rem;
+  font-size: 1.5rem;
+}
+
+/****** PROJECTS SECTION ******/
+
+.projects-section {
+  height: auto;
+  padding: 3rem 3rem 1rem 3rem;
+  /* background-color: #e9cf40; */
+  /* background-color: #111821; */
+  background-color: #fff;
+  position: relative;
+  /* overflow: hidden; */
+}
+
+.projects-section::after {
+  content: "";
+  background: #000046;
+  display: block;
+  width: 100%;
+  height: 1px;
+}
+
+/******************************/
+
+/***************************/
+/****** SKILLS SECTION *****/
+/***************************/
+
+.skills-section {
+  min-height: 100vh;
+  padding: 3rem 3rem 1rem 3rem;
+  /* background-color: #e9cf40; */
+  /* background-color: #111821; */
+  background-color: #fff;
+  position: relative;
+  /* overflow: hidden; */
+}
+
+.skills-heading {
+  margin-top: 3rem;
+}
+
+.skills-subheading {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  width: 50%;
+  list-style: none;
+}
+
+.web {
+  width: 100%;
+}
+
+.list-item {
+  font-size: 1.3rem;
+  font-weight: 500;
+  letter-spacing: 0.1rem;
+  font-family: "Saira Extra Condensed", sans-serif;
+}
+
+.item-img {
+  width: 20px;
+  height: 20px;
+  margin-right: 10px;
+}
+
+/***********************************/
+/* MEDIA QUERIES */
+
+/* Extra small devices (phones, 600px and down) */
+@media only screen and (max-width: 600px) {
+}
+
+/* Small devices (portrait tablets and large phones, 600px and up) */
+@media only screen and (min-width: 600px) {
+}
+
+/* Medium devices (landscape tablets, 768px and up) */
+@media only screen and (min-width: 768px) {
+}
+
+/* Large devices (laptops/desktops, 992px and up) */
+@media only screen and (min-width: 992px) {
+  .sidebar {
+    padding: 0.5em;
+    height: 100vh;
+    display: flex;
+    flex-direction: column;
+    flex: 2;
+    /* background-color: #f00000 !important; */
+    background: linear-gradient(45deg, #1cb5e0, #000046);
+    /* background: linear-gradient(45deg, #11998e,#38ef7d); */
+  }
+}
+
+/* Extra large devices (large laptops and desktops, 1200px and up) */
+@media only screen and (min-width: 1200px) {
+}
