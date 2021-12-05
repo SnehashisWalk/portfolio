@@ -40,19 +40,19 @@ export default function Body() {
               cursor: "pointer",
             }}
           >
-            <a className='sidebar-link' href="#about" onClick={handleClick}>
+            <a className="sidebar-link" href="#about" onClick={handleClick}>
               About
             </a>
-            <a className='sidebar-link' href="#ex" onClick={handleClick}>
+            <a className="sidebar-link" href="#ex" onClick={handleClick}>
               Experience
             </a>
-            <a className='sidebar-link' href="#edu" onClick={handleClick}>
+            <a className="sidebar-link" href="#edu" onClick={handleClick}>
               Education
             </a>
-            <a className='sidebar-link' href="#proj" onClick={handleClick}>
+            <a className="sidebar-link" href="#proj" onClick={handleClick}>
               Projects
             </a>
-            <a className='sidebar-link' href="#skills" onClick={handleClick}>
+            <a className="sidebar-link" href="#skills" onClick={handleClick}>
               Skills
             </a>
           </nav>
@@ -150,10 +150,23 @@ export default function Body() {
             </div> */}
             <ul className="links">
               <li className="link-item">
-                <FaLinkedin />
+                <a
+                  target="_blank"
+                  rel="noreferrer"
+                  href="https://www.linkedin.com/in/snehashislenka321/"
+                >
+                  <FaLinkedin />
+                </a>
               </li>
               <li className="link-item">
-                <FaGithub />
+                <a
+                  style={{ textDecoration: "none" }}
+                  target="_blank"
+                  rel="noreferrer"
+                  href="https://github.com/SnehashisWalk"
+                >
+                  <FaGithub />
+                </a>
               </li>
             </ul>
           </div>
@@ -180,7 +193,7 @@ export default function Body() {
                 <h2>Infosys</h2>
               </div>
               <div className="experience-info">
-                <ul style={{ listStyle: "none" }}>
+                <ul style={{ listStyle: "none", padding: 0 }}>
                   <li className="list-item">Worked as a PL/SQL developer.</li>
                   <li className="list-item">
                     Deployment and Environment support, raised ServiceNow change
@@ -263,7 +276,7 @@ export default function Body() {
               </div>
               <div className="experience-sub-heading"></div>
               <div className="experience-info">
-                <ul style={{ listStyle: "none" }}>
+                <ul style={{ listStyle: "none", padding: 0 }}>
                   <li className="list-item">
                     E-commerce application made on MERN stack.
                   </li>
@@ -287,7 +300,7 @@ export default function Body() {
               </div>
               <div className="experience-sub-heading"></div>
               <div className="experience-info">
-                <ul style={{ listStyle: "none" }}>
+                <ul style={{ listStyle: "none", padding: 0 }}>
                   <li className="list-item">
                     Movie ticket booking application made on MERN stack.
                   </li>
@@ -311,7 +324,7 @@ export default function Body() {
               </div>
               <div className="experience-sub-heading"></div>
               <div className="experience-info">
-                <ul style={{ listStyle: "none" }}>
+                <ul style={{ listStyle: "none", padding: 0 }}>
                   <li className="list-item">
                     Social media application made on MERN stack.
                   </li>
@@ -335,7 +348,7 @@ export default function Body() {
               </div>
               <div className="experience-sub-heading"></div>
               <div className="experience-info">
-                <ul style={{ listStyle: "none" }}>
+                <ul style={{ listStyle: "none", padding: 0 }}>
                   <li className="list-item">
                     Music Visualizer application made on MERN stack, using Web
                     Audio API for beautiful visualizations.
@@ -426,30 +439,22 @@ export default function Body() {
           <div className="skills-heading">
             <h1 style={{ textTransform: "uppercase" }}>Dev Ops</h1>
           </div>
-          <ul className="skills-subheading web">
+          <ul className="skills-subheading">
             <li className="list-item">
-              <img className="item-img" src="html.svg" alt="html" />
+              <img className="item-img" src="git.png" alt="git" />
               Git
             </li>
             <li className="list-item">
-              <img className="item-img" src="css.svg" alt="css" />
+              <img className="item-img" src="heroku.png" alt="heroku" />
               Heroku
             </li>
             <li className="list-item">
-              <img className="item-img" src="nodejs.svg" alt="nodejs" />
+              <img className="item-img" src="netlify.png" alt="netlify" />
               Netlify
             </li>
             <li className="list-item">
-              <img className="item-img" src="bootstrap.svg" alt="bootstrap" />
+              <img className="item-img" src="jenkins.png" alt="jenkins" />
               Jenkins
-            </li>
-            <li className="list-item">
-              <img className="item-img" src="react.svg" alt="react" />
-              React
-            </li>
-            <li className="list-item">
-              <img className="item-img" src="express.svg" alt="express" />
-              Express.js
             </li>
           </ul>
         </section>
