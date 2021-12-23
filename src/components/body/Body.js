@@ -4,20 +4,6 @@ import { Link } from "react-scroll";
 import "./body.css";
 
 export default function Body() {
-  // const handleClick = (e) => {
-  //   e.preventDefault();
-  //   console.log(e);
-  //   const target = e.target.getAttribute("href");
-  //   const location = document.querySelector(target).offsetTop;
-
-  //   console.log(location);
-  //   window.scroll({
-  //     left: 0,
-  //     top: location,
-  //     behavior: 'smooth'
-  //   });
-  // };
-
   const handleClick = (e) => {
     e.preventDefault();
     document.querySelector(e.target.getAttribute("href")).scrollIntoView({
@@ -56,56 +42,6 @@ export default function Body() {
               Skills
             </a>
           </nav>
-          {/* <ul className="sidebar-list">
-            <li className="sidebar-item">
-              <a
-                style={{ textDecoration: "none" }}
-                href="#about"
-                onClick={handleClick}
-              >
-                About
-              </a>
-            </li>
-            <li className="sidebar-item">
-              <a
-                style={{ textDecoration: "none" }}
-                href="#ex"
-                onClick={handleClick}
-              >
-                Experience
-              </a>
-            </li>
-
-            <li className="sidebar-item">
-              <a
-                style={{ textDecoration: "none" }}
-                href="#edu"
-                onClick={handleClick}
-              >
-                Education
-              </a>
-            </li>
-
-            <li className="sidebar-item">
-              <a
-                style={{ textDecoration: "none" }}
-                href="#proj"
-                onClick={handleClick}
-              >
-                Projects
-              </a>
-            </li>
-
-            <li className="sidebar-item">
-              <a
-                style={{ textDecoration: "none" }}
-                href="#skills"
-                onClick={handleClick}
-              >
-                Skills
-              </a>
-            </li>
-          </ul> */}
         </div>
       </div>
       <div className="right-wrapper">
@@ -122,9 +58,9 @@ export default function Body() {
           </div>
           <div className="bio-wrapper">
             <p id="bio">
-              A Developer with strong passion for self-improvement. I have
-              strong Problem Solving skills & bring energy, patience, positivity
-              and cultural values to the team.
+              Developer with strong passion for self-improvement. I have strong
+              Problem Solving skills & bring energy, patience, positivity and
+              cultural values to the team.
               <br></br>
               <br></br>
             </p>
@@ -170,15 +106,6 @@ export default function Body() {
               </li>
             </ul>
           </div>
-          {/* <div className="img-container">
-            <img className="img" src="design2.svg" alt="img" />
-          </div> */}
-          {/* <div className="img-container2">
-            <img className="img2" src="design2.svg" alt="img" />
-          </div> */}
-          {/* <div className="img-container3">
-            <img className="img3" src="gold-design1.svg" alt="img" />
-          </div> */}
         </section>
         <section id="ex" className="experience-section">
           <div className="section-heading">
@@ -186,35 +113,57 @@ export default function Body() {
           </div>
           <div className="experience-content-block">
             <div className="experience-content-left">
-              <div className="experience-heading">
-                <h1 style={{ textTransform: "uppercase" }}>System Engineer</h1>
+              <div className="experience-heading d-none d-sm-block">
+                <h1 style={{ textTransform: "uppercase" }}>Infosys Ltd.</h1>
               </div>
-              <div className="experience-sub-heading">
-                <h2>Infosys</h2>
+              <div className="experience-sub-heading d-none d-sm-block">
+                <h2>System Engineer</h2>
+              </div>
+              <div className="exp-header sm-toggle">
+                <div className="exp-header-left">
+                  <div className="experience-heading">
+                    <h1 style={{ textTransform: "uppercase" }}>Infosys Ltd.</h1>
+                  </div>
+                  <div className="experience-sub-heading">
+                    <h2>System Engineer</h2>
+                  </div>
+                  <div className="experience-dates-sm">
+                    <h3>May 2019 - Sept. 2021</h3>
+                  </div>
+                </div>
+                <div className="exp-header-right">
+                  <div className="experience-company-img ">
+                    <img src="infosys.svg" alt="img" />
+                  </div>
+                </div>
               </div>
               <div className="experience-info">
-                <ul style={{ listStyle: "none", padding: 0 }}>
-                  <li className="list-item">Worked as a PL/SQL developer.</li>
+                <ul style={{ marginLeft: "1.1rem", padding: 0 }}>
                   <li className="list-item">
-                    Deployment and Environment support, raised ServiceNow change
-                    requests for deployment.
+                    Worked in Oracle EBS HR domain team for Westpac, Australia.
                   </li>
                   <li className="list-item">
-                    Created Control-M jobs to automate the transfer of daily
-                    reports to downstream team.
+                    Worked on PeopleXpress, HR portal for Westpac employees,
+                    wrote backend procedures in PL/SQL.
                   </li>
                   <li className="list-item">
-                    Worked with a team of 3 developers to create a Knowledge
-                    Transfer portal for the new joinees in the team using React.
+                    Created Control-M jobs and UNIX shellscripts to automate the
+                    transfer of daily reports to downstream team.
+                  </li>
+                  <li className="list-item">
+                    Acted as DevOps Point-of-contact (POC) for deployments of
+                    projects via Bitbucket, Jenkins, Artifactory, Control-M, and
+                    raised Servicenow change requests (CRQ) for project
+                    deployments.
                   </li>
                 </ul>
               </div>
             </div>
-            <div className="experience-content-right">
-              <div className="experience-dates">
+            <div className="experience-content-right d-none d-sm-block">
+              <div className="experience-dates ">
                 <h3>May 2019 - Sept 2021</h3>
               </div>
-              <div className="experience-company-img">
+              <div className="experience-company-img ">
                 <img src="infosys.svg" alt="img" />
               </div>
             </div>
@@ -233,20 +182,44 @@ export default function Body() {
           <div className="experience-content-block">
             <div className="experience-content-left">
               <div>
-                <h1 className="education-heading">
+                <h1 className="education-heading d-none d-sm-block">
                   Silicon Institute of Technology, Bhubaneswar
                 </h1>
               </div>
               <div>
-                <h2 className="education-sub-heading">
+                <h2 className="education-sub-heading d-none d-sm-block">
                   Bachelor of Technology in Applied Electronics and
                   Instrumentation Engineering
                 </h2>
               </div>
+              <div className="exp-header sm-toggle">
+                <div className="exp-header-left">
+                  <h1 className="education-heading">
+                    Silicon Institute of Technology, Bhubaneswar
+                  </h1>
+                </div>
+                <div className="exp-header-right">
+                  <div className="experience-company-img ">
+                    <img src="sit-logo.svg" alt="img" />
+                  </div>
+                </div>
+              </div>
+              <div className="sm-toggle">
+                <h2 className="edu-sub-heading ">
+                  Bachelor of Technology in Applied Electronics and
+                  Instrumentation Engineering
+                </h2>
+
+                <h3 className="edu-dates-sm">Aug. 2015 - April 2019</h3>
+
+                <h3 className="edu-cgpa-sm">
+                  <span>CGPA: </span>8.27 / 10.0
+                </h3>
+              </div>
             </div>
-            <div className="experience-content-right">
+            <div className="experience-content-right d-none d-sm-block">
               <div className="experience-dates">
-                <h3>Aug 2015 - April 2019</h3>
+                <h3>Aug. 2015 - April 2019</h3>
               </div>
               {/* <div className="experience-company-img">
                 <img src="infosys.svg" alt="img" />
@@ -278,7 +251,11 @@ export default function Body() {
               <div className="experience-info">
                 <ul style={{ listStyle: "none", padding: 0 }}>
                   <li className="list-item">
-                    E-commerce application made on MERN stack.
+                    E-commerce application made on MERN stack. Used Redux for
+                    state management, created responsive UI using React
+                    Bootstrap library and React Router library for routing
+                    purposes. Created backend using Express.js and used MongoDB
+                    as database and hosted the project using Heroku and Netlify.
                   </li>
                 </ul>
               </div>
