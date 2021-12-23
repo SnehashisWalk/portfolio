@@ -153,8 +153,8 @@ h6 {
   list-style: none;
   display: flex;
   padding: 0;
-  margin-bottom: 3rem;
-  width: 20%;
+  margin-bottom: 2rem;
+  width: 100%;
   justify-content: space-around;
 }
 
@@ -266,87 +266,6 @@ ul li a {
   object-fit: contain;
 }
 
-.img-container {
-  height: 100%;
-  width: 100%;
-  margin-bottom: 25px;
-  overflow: hidden;
-  position: relative;
-  top: -50%;
-  left: 55%;
-  z-index: 10;
-}
-
-.img {
-  height: 100%;
-  width: 100%;
-  object-fit: contain;
-  animation: rotation 60s linear infinite;
-}
-.img-container2 {
-  height: 40%;
-  width: 40%;
-  /* height: 100%;
-  width: 100%; */
-  margin-bottom: 25px;
-  overflow: hidden;
-  position: relative;
-  top: -179%;
-  left: -25%;
-  z-index: 10;
-  margin: 0;
-}
-
-.img2 {
-  height: 100%;
-  width: 100%;
-  object-fit: contain;
-  animation: rotation 60s linear infinite;
-}
-.img-container3 {
-  height: 100%;
-  width: 100%;
-  margin-bottom: 25px;
-  overflow: hidden;
-  position: relative;
-  top: -170%;
-  left: -34%;
-  z-index: 0;
-}
-
-.img3 {
-  height: 60%;
-  width: 60%;
-  object-fit: contain;
-  animation: rotation 60s linear infinite;
-}
-.img-container4 {
-  height: 60%;
-  width: 60%;
-  margin-bottom: 25px;
-  overflow: hidden;
-  position: relative;
-  top: -118%;
-  left: 75%;
-  z-index: 0;
-}
-
-.img4 {
-  height: 100%;
-  width: 100%;
-  object-fit: contain;
-  animation: rotation 60s linear infinite;
-}
-
-@keyframes rotation {
-  from {
-    transform: rotate(0deg);
-  }
-  to {
-    transform: rotate(360deg);
-  }
-}
-
 /**** skills list body ***/
 
 .skills-list-body {
@@ -367,11 +286,8 @@ ul li a {
 .education-section {
   height: auto;
   padding: 3rem 3rem 1rem 3rem;
-  /* background-color: #e9cf40; */
-  /* background-color: #111821; */
   background-color: #fff;
   position: relative;
-  /* overflow: hidden; */
 }
 
 .education-section::after {
@@ -383,7 +299,6 @@ ul li a {
 }
 
 .education-heading {
-  /* font-size: 1.8rem; */
   text-transform: uppercase;
 }
 
@@ -461,7 +376,154 @@ ul li a {
 /* MEDIA QUERIES */
 
 /* Extra small devices (phones, 600px and down) */
+
 @media only screen and (max-width: 600px) {
+  /** toggle display of some divs ***/
+  .sm-toggle {
+    display: block;
+  }
+
+  .about-section {
+    height: auto;
+    padding: 3rem 2rem 0rem 2rem;
+    position: relative;
+    background-color: #ffffff;
+  }
+
+  .title {
+    font-size: 4rem;
+    font-family: "Saira Extra Condensed", sans-serif;
+    font-weight: 700;
+    margin: 3rem 0 0 0rem;
+    line-height: 5rem;
+    letter-spacing: 2px;
+  }
+
+  .short-bio {
+    margin: 0.7rem 0 0 0;
+    font-size: 1.3rem;
+    font-weight: 600;
+  }
+
+  #bio {
+    /* color: #fff; */
+    margin: 1.5rem 0 0 0;
+    color: rgb(53, 51, 51) !important;
+    font-size: 1.2rem;
+    font-weight: 200;
+    letter-spacing: 0.1rem;
+    font-family: "Saira Extra Condensed", sans-serif;
+  }
+
+  /** Work Experience section **/
+  .experience-section {
+    height: auto;
+    padding: 2rem 2rem 0rem 2rem;
+    background-color: #fff;
+    position: relative;
+  }
+
+  .experience-content-block {
+    display: flex;
+    margin: 1rem 0 0 0;
+  }
+
+  .experience-content-left {
+    display: flex;
+    flex-direction: column;
+  }
+
+  .exp-header {
+    display: flex;
+    flex-direction: row !important;
+    margin: 0 0 1rem 0;
+  }
+
+  .exp-header-left {
+    flex: 70%;
+  }
+
+  .exp-header-right {
+    flex: 30%;
+  }
+
+  .experience-company-img {
+    /* height: inherit; */
+    width: 100%;
+    margin-bottom: 25px;
+    margin: auto;
+  }
+  .experience-company-img > img {
+    height: 100%;
+    width: 100%;
+    object-fit: contain;
+  }
+
+  .experience-heading > h1 {
+    margin: 0.8rem 0 0 0;
+    font-weight: 700;
+  }
+
+  .experience-sub-heading {
+    margin: 0;
+    margin-top: 0.5rem;
+  }
+  .experience-sub-heading > h2 {
+    font-size: 1.2rem;
+    font-style: italic;
+    margin: 0;
+  }
+
+  .experience-dates-sm {
+    margin: 0 0 0.5rem 0;
+  }
+  .experience-dates-sm > h3 {
+    font-size: 1rem;
+    font-style: italic;
+  }
+
+  .list-item {
+    font-size: 1.1rem;
+    font-weight: 500;
+    font-style: italic;
+    letter-spacing: 0.1rem;
+    font-family: "Saira Extra Condensed", sans-serif;
+  }
+
+  /*Education*/
+  .education-section {
+    height: auto;
+    padding: 2rem 2rem 0rem 2rem;
+    background-color: #fff;
+    position: relative;
+  }
+  .education-heading {
+    font-size: 1.4rem;
+    font-weight: 900;
+    text-transform: capitalize;
+  }
+  .edu-sub-heading {
+    margin-top: 0.2rem;
+    font-style: italic;
+    font-size: 1.2rem;
+    font-weight: 510;
+    letter-spacing: 0;
+  }
+  .edu-dates-sm {
+    font-style: italic;
+    font-size: 1rem;
+    margin: 0;
+  }
+  .edu-cgpa-sm {
+    font-style: italic;
+    font-size: 1rem;
+  }
+}
+
+@media only screen and (min-width: 600px) {
+  .sm-toggle {
+    display: none;
+  }
 }
 
 /* Small devices (portrait tablets and large phones, 600px and up) */
