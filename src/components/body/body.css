@@ -334,13 +334,10 @@ ul li a {
 /***************************/
 
 .skills-section {
-  min-height: 100vh;
   padding: 3rem 3rem 1rem 3rem;
-  /* background-color: #e9cf40; */
-  /* background-color: #111821; */
+  margin-bottom: 5rem;
   background-color: #fff;
   position: relative;
-  /* overflow: hidden; */
 }
 
 .skills-heading {
@@ -531,12 +528,12 @@ ul li a {
 
   /** Skill Section **/
   .skills-section {
-    min-height: 100vh;
+    /* min-height: 100vh; */
     padding: 2rem 2rem 2rem 2rem;
     background-color: #fff;
     position: relative;
     margin-bottom: 2rem;
-    overflow: auto;
+    overflow: visible;
   }
 
   .skills-heading {
