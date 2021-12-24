@@ -236,7 +236,7 @@ export default function Body() {
           </div>
           <div className="experience-content-block">
             <div className="experience-content-left">
-              <div className="experience-heading">
+              <div className="experience-heading d-none d-sm-block">
                 <a
                   target="_blank"
                   rel="noreferrer"
@@ -247,7 +247,26 @@ export default function Body() {
                   </h1>
                 </a>
               </div>
-              <div className="experience-sub-heading"></div>
+              {/* projects heading for sm devices */}
+              <div className="exp-header sm-toggle">
+                <div className="exp-header-left">
+                  <a
+                    target="_blank"
+                    rel="noreferrer"
+                    href="https://objective-bhabha-04b53e.netlify.app/"
+                  >
+                    <h1 style={{ textTransform: "uppercase" }}>
+                      MERN E-commerce App: Music Store
+                    </h1>
+                  </a>
+                </div>
+                <div className="exp-header-right">
+                  <div className="experience-company-img">
+                    <img src="music_store.png" alt="img" />
+                  </div>
+                </div>
+              </div>
+              {/************** */}
               <div className="experience-info">
                 <ul style={{ listStyle: "none", padding: 0 }}>
                   <li className="list-item">
@@ -260,7 +279,7 @@ export default function Body() {
                 </ul>
               </div>
             </div>
-            <div className="experience-content-right">
+            <div className="experience-content-right d-none d-sm-block">
               <div className="experience-company-img">
                 <img src="music_store.png" alt="img" />
               </div>
@@ -268,14 +287,33 @@ export default function Body() {
           </div>
           <div className="experience-content-block">
             <div className="experience-content-left">
-              <div className="experience-heading">
+              <div className="experience-heading d-none d-sm-block">
                 <a href="#6">
                   <h1 style={{ textTransform: "uppercase" }}>
                     Movie Booking App: BookMyTicket
                   </h1>
                 </a>
               </div>
-              <div className="experience-sub-heading"></div>
+              {/* projects heading for sm devices */}
+              <div className="exp-header sm-toggle">
+                <div className="exp-header-left">
+                  <a
+                    target="_blank"
+                    rel="noreferrer"
+                    href="https://objective-bhabha-04b53e.netlify.app/"
+                  >
+                    <h1 style={{ textTransform: "uppercase" }}>
+                      Movie Booking App: BookMyTicket
+                    </h1>
+                  </a>
+                </div>
+                <div className="exp-header-right">
+                  <div className="experience-company-img">
+                    <img src="bookmyticket.png" alt="img" />
+                  </div>
+                </div>
+              </div>
+              {/************** */}
               <div className="experience-info">
                 <ul style={{ listStyle: "none", padding: 0 }}>
                   <li className="list-item">
@@ -284,7 +322,7 @@ export default function Body() {
                 </ul>
               </div>
             </div>
-            <div className="experience-content-right">
+            <div className="experience-content-right d-none d-sm-block">
               <div className="experience-company-img">
                 <img src="bookmyticket.png" alt="img" />
               </div>
@@ -292,14 +330,33 @@ export default function Body() {
           </div>
           <div className="experience-content-block">
             <div className="experience-content-left">
-              <div className="experience-heading">
+              <div className="experience-heading d-none d-sm-block">
                 <a href="#4">
                   <h1 style={{ textTransform: "uppercase" }}>
                     Social Media App: FriendsBay
                   </h1>
                 </a>
               </div>
-              <div className="experience-sub-heading"></div>
+              {/* projects heading for sm devices */}
+              <div className="exp-header sm-toggle">
+                <div className="exp-header-left">
+                  <a
+                    target="_blank"
+                    rel="noreferrer"
+                    href="https://objective-bhabha-04b53e.netlify.app/"
+                  >
+                    <h1 style={{ textTransform: "uppercase" }}>
+                      Social Media App: FriendsBay
+                    </h1>
+                  </a>
+                </div>
+                <div className="exp-header-right">
+                  <div className="experience-company-img">
+                    <img src="friendsbay.png" alt="img" />
+                  </div>
+                </div>
+              </div>
+              {/************** */}
               <div className="experience-info">
                 <ul style={{ listStyle: "none", padding: 0 }}>
                   <li className="list-item">
@@ -308,13 +365,13 @@ export default function Body() {
                 </ul>
               </div>
             </div>
-            <div className="experience-content-right">
+            <div className="experience-content-right d-none d-sm-block">
               <div className="experience-company-img">
                 <img src="friendsbay.png" alt="img" />
               </div>
             </div>
           </div>
-          <div className="experience-content-block">
+          {/* <div className="experience-content-block">
             <div className="experience-content-left">
               <div className="experience-heading">
                 <a href="#1">
@@ -338,7 +395,7 @@ export default function Body() {
                 <img src="animemusic.png" alt="img" />
               </div>
             </div>
-          </div>
+          </div> */}
         </section>
         <section id="skills" className="skills-section">
           <div className="section-heading">
@@ -406,7 +463,7 @@ export default function Body() {
             </li>
             <li className="list-item">
               <img className="item-img" src="react.svg" alt="react" />
-              React
+              React.js
             </li>
             <li className="list-item">
               <img className="item-img" src="express.svg" alt="express" />
