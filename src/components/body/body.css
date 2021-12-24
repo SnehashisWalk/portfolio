@@ -413,6 +413,7 @@ ul li a {
     font-weight: 200;
     letter-spacing: 0.1rem;
     font-family: "Saira Extra Condensed", sans-serif;
+    font-style: italic;
   }
 
   /** Work Experience section **/
@@ -506,17 +507,58 @@ ul li a {
     margin-top: 0.2rem;
     font-style: italic;
     font-size: 1.2rem;
-    font-weight: 510;
+    font-weight: 500;
     letter-spacing: 0;
   }
   .edu-dates-sm {
     font-style: italic;
     font-size: 1rem;
-    margin: 0;
+    margin: 0 0 0.2rem 0;
   }
   .edu-cgpa-sm {
     font-style: italic;
     font-size: 1rem;
+    margin: 0 0 2rem 0;
+  }
+
+  /** Projects Section **/
+  .projects-section {
+    height: auto;
+    padding: 2rem 2rem 0rem 2rem;
+    background-color: #fff;
+    position: relative;
+  }
+
+  /** Skill Section **/
+  .skills-section {
+    min-height: 100vh;
+    padding: 2rem 2rem 2rem 2rem;
+    background-color: #fff;
+    position: relative;
+    margin-bottom: 2rem;
+    overflow: auto;
+  }
+
+  .skills-heading {
+    margin-top: 1rem;
+  }
+
+  .skills-heading > h1 {
+    font-weight: 600;
+  }
+
+  .skills-subheading {
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-end !important;
+    padding: 0;
+    width: 100%;
+    list-style: none;
+  }
+
+  .list-item {
+    width: 100%;
+    margin-bottom: 0.3rem;
   }
 }
 
