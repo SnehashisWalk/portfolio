@@ -58,32 +58,13 @@ export default function Body() {
           </div>
           <div className="bio-wrapper">
             <p id="bio">
-              Developer with strong passion for self-improvement. I have strong
-              Problem Solving skills & bring energy, patience, positivity and
-              cultural values to the team.
+              Former System Engineer at Infosys Ltd, Pune, with 2.5 years of
+              experience both as a frontend and backend developer in the IT
+              industry. Currently looking for opportunities as a ReactJS
+              Developer.
               <br></br>
               <br></br>
             </p>
-            {/* <div className="skills-list-body">
-              <h2>SKILLS</h2>
-              <ul className="skills-list">
-                <li>
-                  <h3>React JS</h3>
-                </li>
-                <li>
-                  <h3>Node JS</h3>
-                </li>
-                <li>
-                  <h3>Mongo DB</h3>
-                </li>
-                <li>
-                  <h3>Express JS</h3>
-                </li>
-                <li>
-                  <h3>MySQL</h3>
-                </li>
-              </ul>
-            </div> */}
             <ul className="links">
               <li className="link-item">
                 <a
@@ -96,7 +77,7 @@ export default function Body() {
               </li>
               <li className="link-item">
                 <a
-                  style={{ textDecoration: "none" }}
+                  style={{ textDecoration: "none", color: "black" }}
                   target="_blank"
                   rel="noreferrer"
                   href="https://github.com/SnehashisWalk"
@@ -105,6 +86,9 @@ export default function Body() {
                 </a>
               </li>
             </ul>
+            <p className="email-h">
+              Email: <span className="email">slenka321@gmail.com</span>
+            </p>
           </div>
         </section>
         <section id="ex" className="experience-section">
@@ -270,11 +254,11 @@ export default function Body() {
               <div className="experience-info">
                 <ul style={{ listStyle: "none", padding: 0 }}>
                   <li className="list-item">
-                    E-commerce application made on MERN stack. Used Redux for
-                    state management, created responsive UI using React
-                    Bootstrap library and React Router library for routing
-                    purposes. Created backend using Express.js and used MongoDB
-                    as database and hosted the project using Heroku and Netlify.
+                    ➔ Developed an E-Commerce app using MERN stack, used React
+                    Router for routing, used React Bootstrap for styling and
+                    making it mobile and web responsive, hosted the DB on
+                    MongoDB Atlas, hosted backend on Heroku and frontend via
+                    Netlify.
                   </li>
                 </ul>
               </div>
@@ -288,7 +272,7 @@ export default function Body() {
           <div className="experience-content-block">
             <div className="experience-content-left">
               <div className="experience-heading d-none d-sm-block">
-                <a href="#6">
+                <a href="https://stupefied-nightingale-3394de.netlify.app/">
                   <h1 style={{ textTransform: "uppercase" }}>
                     Movie Booking App: BookMyTicket
                   </h1>
@@ -300,7 +284,7 @@ export default function Body() {
                   <a
                     target="_blank"
                     rel="noreferrer"
-                    href="https://objective-bhabha-04b53e.netlify.app/"
+                    href="https://stupefied-nightingale-3394de.netlify.app/"
                   >
                     <h1 style={{ textTransform: "uppercase" }}>
                       Movie Booking App: BookMyTicket
@@ -317,7 +301,9 @@ export default function Body() {
               <div className="experience-info">
                 <ul style={{ listStyle: "none", padding: 0 }}>
                   <li className="list-item">
-                    Movie ticket booking application made on MERN stack.
+                    ➔ Developed a movie booking app on MERN stack, created an
+                    interface where the user can select seats as per choice,
+                    select language, day and time of the show.
                   </li>
                 </ul>
               </div>
@@ -331,7 +317,7 @@ export default function Body() {
           <div className="experience-content-block">
             <div className="experience-content-left">
               <div className="experience-heading d-none d-sm-block">
-                <a href="#4">
+                <a href="https://awesome-hodgkin-8cf064.netlify.app/">
                   <h1 style={{ textTransform: "uppercase" }}>
                     Social Media App: FriendsBay
                   </h1>
@@ -343,7 +329,7 @@ export default function Body() {
                   <a
                     target="_blank"
                     rel="noreferrer"
-                    href="https://objective-bhabha-04b53e.netlify.app/"
+                    href="https://awesome-hodgkin-8cf064.netlify.app/"
                   >
                     <h1 style={{ textTransform: "uppercase" }}>
                       Social Media App: FriendsBay
@@ -360,7 +346,9 @@ export default function Body() {
               <div className="experience-info">
                 <ul style={{ listStyle: "none", padding: 0 }}>
                   <li className="list-item">
-                    Social media application made on MERN stack.
+                    ➔ Developed a social media app, where the user can create
+                    new posts, post it on timeline, like others post. The app is
+                    created on MERN stack.
                   </li>
                 </ul>
               </div>
@@ -491,6 +479,10 @@ export default function Body() {
               Jenkins
             </li>
           </ul>
+          <h5 className="section-footer-text">
+            Made with <span style={{ color: "#e74c3c" }}>&hearts;</span> in
+            India
+          </h5>
         </section>
       </div>
     </div>
