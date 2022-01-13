@@ -323,8 +323,24 @@ ul li a {
   font-size: 1.5rem;
 }
 
+.edu-dates {
+  font-size: 1.3rem;
+  margin-bottom: 0.5rem;
+}
+
 .edu-cgpa {
   font-size: 1.3rem;
+}
+
+.edu-img {
+  /* height: 10rem; */
+}
+
+.edu-img > img {
+  width: 50%;
+  max-width: 50%;
+  height: 50%;
+  object-fit: cover;
 }
 
 /****** PROJECTS SECTION ******/

@@ -174,7 +174,7 @@ export default function Body() {
             <div className="experience-content-left">
               <div>
                 <h1 className="education-heading d-none d-sm-block">
-                  Silicon Institute of Technology, Bhubaneswar
+                  Biju Patnaik University of Technology, Rourkela
                 </h1>
               </div>
               <div>
@@ -186,12 +186,12 @@ export default function Body() {
               <div className="exp-header sm-toggle">
                 <div className="exp-header-left">
                   <h1 className="education-heading">
-                    Silicon Institute of Technology, Bhubaneswar
+                    Biju Patnaik University of Technology, Rourkela
                   </h1>
                 </div>
                 <div className="exp-header-right">
                   <div className="experience-company-img ">
-                    <img src="sit-logo.svg" alt="img" />
+                    <img src="bput.png" alt="img" />
                   </div>
                 </div>
               </div>
@@ -207,17 +207,17 @@ export default function Body() {
                   <span>CGPA: </span>8.27 / 10.0
                 </h3>
               </div>
+              <h3 className="edu-dates d-none d-sm-block">
+                Aug. 2015 - April 2019
+              </h3>
               <h3 className="edu-cgpa d-none d-sm-block">
                 <span>CGPA: </span>8.27 / 10.0
               </h3>
             </div>
             <div className="experience-content-right d-none d-sm-block">
-              <div className="experience-dates">
-                <h3>Aug. 2015 - April 2019</h3>
+              <div className="edu-img">
+                <img src="bput.png" alt="img" />
               </div>
-              {/* <div className="experience-company-img">
-                <img src="infosys.svg" alt="img" />
-              </div> */}
             </div>
           </div>
           {/* <div className="img-container4">
