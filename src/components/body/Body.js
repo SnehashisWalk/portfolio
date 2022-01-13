@@ -64,7 +64,7 @@ export default function Body() {
               Former System Engineer at Infosys Ltd, Pune, with 2.5 years of
               experience as a Fullstack Engineer in the IT industry.
               <br></br>
-              <br></br>
+              {/* <br></br> */}
             </p>
             <ul className="links">
               <li className="link-item">
@@ -207,7 +207,7 @@ export default function Body() {
                   <span>CGPA: </span>8.27 / 10.0
                 </h3>
               </div>
-              <h3 className="edu-cgpa">
+              <h3 className="edu-cgpa d-none d-sm-block">
                 <span>CGPA: </span>8.27 / 10.0
               </h3>
             </div>

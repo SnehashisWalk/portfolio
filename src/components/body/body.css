@@ -642,7 +642,13 @@ ul li a {
     margin-bottom: 0.3rem;
   }
 
-  /*Certification Section*/
+  .devops {
+    margin-bottom: 2rem;
+  }
+
+  /****************/
+
+  /****Certification Section****/
   .certification-section {
     /* min-height: 100vh; */
     padding: 2rem 2rem 2rem 2rem;
