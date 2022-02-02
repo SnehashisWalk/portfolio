@@ -1,8 +1,8 @@
 import React from "react";
 import { FaLinkedin, FaGithub } from "react-icons/fa";
-import "./body.css";
+import "./profile.css";
 
-export default function Body() {
+export default function Profile() {
   const handleClick = (e) => {
     e.preventDefault();
     document.querySelector(e.target.getAttribute("href")).scrollIntoView({
@@ -40,9 +40,9 @@ export default function Body() {
             <a className="sidebar-link" href="#skills" onClick={handleClick}>
               Skills
             </a>
-            <a className="sidebar-link" href="#cert" onClick={handleClick}>
+            {/* <a className="sidebar-link" href="#cert" onClick={handleClick}>
               Certifications
-            </a>
+            </a> */}
           </nav>
         </div>
       </div>
@@ -140,12 +140,12 @@ export default function Body() {
                     raised Servicenow change requests (CRQ) for project
                     deployments.
                   </li>
-                  <li className="list-item">
+                  {/* <li className="list-item">
                     Responsible for creating XML templates for employee
                     questionnaire forms along with SQL queries which helped in
                     migrating HR portal, PeopleXpress from Oracle E-Business
                     Suite to Oracle Fusion Cloud ERP.
-                  </li>
+                  </li> */}
                 </ul>
               </div>
             </div>
@@ -226,45 +226,6 @@ export default function Body() {
         <section id="proj" className="projects-section">
           <div className="section-heading">
             <h1 className="work-ex-heading">PROJECTS</h1>
-          </div>
-          <div className="experience-content-block">
-            <div className="experience-content-left">
-              <div className="experience-heading d-none d-sm-block">
-                <h1 style={{ textTransform: "uppercase" }}>
-                  WIRELESS LUGGAGE CARRIER SYSTEM
-                </h1>
-              </div>
-              {/* projects heading for sm devices */}
-              <div className="exp-header sm-toggle">
-                <div className="exp-header-left">
-                  <h1 style={{ textTransform: "uppercase" }}>
-                    WIRELESS LUGGAGE CARRIER SYSTEM
-                  </h1>
-                </div>
-                <div className="exp-header-right">
-                  <div className="experience-company-img"></div>
-                </div>
-              </div>
-              {/************** */}
-              <div className="experience-info">
-                <ul style={{ listStyle: "none", padding: 0 }}>
-                  <li className="list-item">
-                    ➔ Designed and developed a wireless luggage carrier using
-                    various sensors like ultrasonic sensors, Bluetooth,
-                    proximity sensors, IR sensor, and GPS module interfaced
-                    using Raspberry Pi microprocessor. Developed a path finding
-                    algorithm based on Dijkstra's algorithm using sensor data to
-                    find the best path, avoiding collision, and an Android app
-                    to access the carrier.
-                  </li>
-                </ul>
-              </div>
-            </div>
-            <div className="experience-content-right d-none d-sm-block">
-              <div className="experience-company-img">
-                {/* <img src="" alt="img" /> */}
-              </div>
-            </div>
           </div>
           <div className="experience-content-block">
             <div className="experience-content-left">
@@ -403,111 +364,8 @@ export default function Body() {
               </div>
             </div>
           </div>
-          <div className="experience-content-block">
-            <div className="experience-content-left">
-              <div className="experience-heading d-none d-sm-block">
-                <h1 style={{ textTransform: "uppercase" }}>
-                  Android App: Vocab Me
-                </h1>
-              </div>
-              {/* projects heading for sm devices */}
-              <div className="exp-header sm-toggle">
-                <div className="exp-header-left">
-                  <h1 style={{ textTransform: "uppercase" }}>
-                    Android App: Vocab Me
-                  </h1>
-                </div>
-                <div className="exp-header-right">
-                  <div className="experience-company-img"></div>
-                </div>
-              </div>
-              {/************** */}
-              <div className="experience-info">
-                <ul style={{ listStyle: "none", padding: 0 }}>
-                  <li className="list-item">
-                    ➔ Developed an Android application ‘Vocab Me’ which is a
-                    vocabulary improving app. Created the backend in NodeJS and
-                    API endpoints for the app.
-                  </li>
-                </ul>
-              </div>
-            </div>
-            <div className="experience-content-right d-none d-sm-block">
-              <div className="experience-company-img"></div>
-            </div>
-          </div>
-          <div className="experience-content-block">
-            <div className="experience-content-left">
-              <div className="experience-heading d-none d-sm-block">
-                <a
-                  target="_blank"
-                  rel="noreferrer"
-                  href="https://www.therecompiler.com/"
-                >
-                  <h1 style={{ textTransform: "uppercase" }}>
-                    The Recompiler: Personal Blog
-                  </h1>
-                </a>
-              </div>
-              {/* projects heading for sm devices */}
-              <div className="exp-header sm-toggle">
-                <div className="exp-header-left">
-                  <a
-                    target="_blank"
-                    rel="noreferrer"
-                    href="https://www.therecompiler.com/"
-                  >
-                    <h1 style={{ textTransform: "uppercase" }}>
-                      The Recompiler: Personal Blog
-                    </h1>
-                  </a>
-                </div>
-                <div className="exp-header-right">
-                  <div className="experience-company-img"></div>
-                </div>
-              </div>
-              {/************** */}
-              <div className="experience-info">
-                <ul style={{ listStyle: "none", padding: 0 }}>
-                  <li className="list-item">
-                    ➔ Developed a blog where I write technical content related
-                    to web development, android development, and machine
-                    learning.
-                  </li>
-                </ul>
-              </div>
-            </div>
-            <div className="experience-content-right d-none d-sm-block">
-              <div className="experience-company-img"></div>
-            </div>
-          </div>
-          {/* <div className="experience-content-block">
-            <div className="experience-content-left">
-              <div className="experience-heading">
-                <a href="#1">
-                  <h1 style={{ textTransform: "uppercase" }}>
-                    Music Visualizer App
-                  </h1>
-                </a>
-              </div>
-              <div className="experience-sub-heading"></div>
-              <div className="experience-info">
-                <ul style={{ listStyle: "none", padding: 0 }}>
-                  <li className="list-item">
-                    Music Visualizer application made on MERN stack, using Web
-                    Audio API for beautiful visualizations.
-                  </li>
-                </ul>
-              </div>
-            </div>
-            <div className="experience-content-right">
-              <div className="experience-company-img">
-                <img src="animemusic.png" alt="img" />
-              </div>
-            </div>
-          </div> */}
         </section>
-        <section id="skills" className="skills-section">
+        <section id="skills" className="skills-section-profile">
           <div className="section-heading">
             <h1 className="work-ex-heading">SKILLS</h1>
           </div>
@@ -584,21 +442,6 @@ export default function Body() {
               Express.js
             </li>
           </ul>
-          <div className="skills-heading">
-            <h1 style={{ textTransform: "uppercase" }}>
-              Android Development and Frameworks
-            </h1>
-          </div>
-          <ul className="skills-subheading">
-            <li className="list-item">
-              <img className="item-img" src="android.svg" alt="mysql" />
-              Android SDK
-            </li>
-            <li className="list-item">
-              <img className="item-img" src="react-native.svg" alt="mongodb" />
-              React Native
-            </li>
-          </ul>
           <div className="skills-heading ">
             <h1 style={{ textTransform: "uppercase" }}>Dev Ops</h1>
           </div>
@@ -621,245 +464,6 @@ export default function Body() {
             </li>
             <li className="list-item">Shell Scripting</li>
           </ul>
-        </section>
-        <section id="cert" className="certification-section">
-          <div className="section-heading">
-            <h1 className="work-ex-heading">PROFESSIONAL CERTIFICATIONS</h1>
-          </div>
-          <div className="experience-content-block">
-            <div className="experience-content-left">
-              <div className="brand">
-                <div className="brand-style d-none d-sm-block">
-                  <img src="coursera.svg" alt="coursera" />
-                </div>
-                <h1 className="education-heading d-none d-sm-block brand-style-heading">
-                  University of Michigan
-                </h1>
-              </div>
-              <div>
-                <h2 className="education-sub-heading d-none d-sm-block">
-                  ➔{" "}
-                  <a
-                    target="_blank"
-                    rel="noreferrer"
-                    href="https://coursera.org/share/207ddbe4e8bf707cfb3d014a33d4231e"
-                  >
-                    Python Data Structures
-                  </a>
-                </h2>
-              </div>
-              <div className="exp-header sm-toggle">
-                <div className="exp-header-left">
-                  <h1 className="education-heading brand-style-heading-sm">
-                    University of Michigan
-                  </h1>
-                </div>
-                <div className="exp-header-right">
-                  <div className="experience-company-img brand-style-sm">
-                    <img src="coursera.svg" alt="coursera" />
-                  </div>
-                </div>
-              </div>
-              <div className="sm-toggle">
-                <h2 className="edu-sub-heading ">
-                  ➔{" "}
-                  <a
-                    target="_blank"
-                    rel="noreferrer"
-                    href="https://coursera.org/share/207ddbe4e8bf707cfb3d014a33d4231e"
-                  >
-                    Python Data Structures
-                  </a>
-                </h2>
-              </div>
-            </div>
-          </div>
-          <div className="experience-content-block">
-            <div className="experience-content-left">
-              <div className="brand">
-                <div className="brand-style d-none d-sm-block">
-                  <img src="coursera.svg" alt="coursera" />
-                </div>
-                <h1 className="education-heading d-none d-sm-block brand-style-heading ">
-                  University of California San Diego
-                </h1>
-              </div>
-              <div>
-                <h2 className="education-sub-heading d-none d-sm-block">
-                  ➔{" "}
-                  <a
-                    target="_blank"
-                    rel="noreferrer"
-                    href="https://coursera.org/share/3d6f25e25a93e6ac8af302e317a3d00f"
-                  >
-                    Data Structures
-                  </a>
-                </h2>
-              </div>
-              <div className="exp-header sm-toggle">
-                <div className="exp-header-left">
-                  <h1 className="education-heading brand-style-heading-sm">
-                    University of California San Diego
-                  </h1>
-                </div>
-                <div className="exp-header-right">
-                  <div className="experience-company-img brand-style-sm">
-                    <img src="coursera.svg" alt="coursera" />
-                  </div>
-                </div>
-              </div>
-              <div className="sm-toggle">
-                <h2 className="edu-sub-heading ">
-                  ➔{" "}
-                  <a
-                    target="_blank"
-                    rel="noreferrer"
-                    href="https://coursera.org/share/3d6f25e25a93e6ac8af302e317a3d00f"
-                  >
-                    Data Structures
-                  </a>
-                </h2>
-              </div>
-            </div>
-          </div>
-          <div className="experience-content-block">
-            <div className="experience-content-left">
-              <div className="brand">
-                <div className="brand-style d-none d-sm-block">
-                  <img src="coursera.svg" alt="coursera" />
-                </div>
-                <h1 className="education-heading d-none d-sm-block brand-style-heading ">
-                  University of Washington
-                </h1>
-              </div>
-              <div>
-                <h2 className="education-sub-heading d-none d-sm-block">
-                  ➔{" "}
-                  <a
-                    target="_blank"
-                    rel="noreferrer"
-                    href="https://coursera.org/share/c1c2f523c30ab20428066dc66654af32"
-                  >
-                    Machine Learning Foundations: A Case Study Approach
-                  </a>
-                </h2>
-                <h2 className="education-sub-heading d-none d-sm-block">
-                  ➔{" "}
-                  <a
-                    target="_blank"
-                    rel="noreferrer"
-                    href="https://coursera.org/share/9fe1fce93c69132c62d9f1b2cd14d275"
-                  >
-                    Machine Learning: Classification
-                  </a>
-                </h2>
-                <h2 className="education-sub-heading d-none d-sm-block">
-                  ➔{" "}
-                  <a
-                    target="_blank"
-                    rel="noreferrer"
-                    href="https://coursera.org/share/8b4715858f355f7493da0003facbda54"
-                  >
-                    Machine Learning: Regression
-                  </a>
-                </h2>
-              </div>
-              <div className="exp-header sm-toggle">
-                <div className="exp-header-left">
-                  <h1 className="education-heading brand-style-heading-sm">
-                    University of Washington
-                  </h1>
-                </div>
-                <div className="exp-header-right">
-                  <div className="experience-company-img brand-style-sm">
-                    <img src="coursera.svg" alt="coursera" />
-                  </div>
-                </div>
-              </div>
-              <div className="sm-toggle">
-                <h2 className="edu-sub-heading ">
-                  ➔{" "}
-                  <a
-                    target="_blank"
-                    rel="noreferrer"
-                    href="https://coursera.org/share/c1c2f523c30ab20428066dc66654af32"
-                  >
-                    Machine Learning Foundations: A Case Study Approach
-                  </a>
-                </h2>
-                <h2 className="edu-sub-heading ">
-                  ➔{" "}
-                  <a
-                    target="_blank"
-                    rel="noreferrer"
-                    href="https://coursera.org/share/9fe1fce93c69132c62d9f1b2cd14d275"
-                  >
-                    Machine Learning: Classification
-                  </a>
-                </h2>
-                <h2 className="edu-sub-heading ">
-                  ➔{" "}
-                  <a
-                    target="_blank"
-                    rel="noreferrer"
-                    href="https://coursera.org/share/8b4715858f355f7493da0003facbda54"
-                  >
-                    Machine Learning: Regression
-                  </a>
-                </h2>
-              </div>
-            </div>
-          </div>
-          <div className="experience-content-block">
-            <div className="experience-content-left">
-              <div className="brand">
-                <div className="brand-style d-none d-sm-block">
-                  <img src="coursera.svg" alt="coursera" />
-                </div>
-                <h1 className="education-heading d-none d-sm-block brand-style-heading ">
-                  DeepLearning.AI
-                </h1>
-              </div>
-              <div>
-                <h2 className="education-sub-heading d-none d-sm-block">
-                  ➔{" "}
-                  <a
-                    target="_blank"
-                    rel="noreferrer"
-                    href="https://coursera.org/share/e3b15f0b09efcc3f290e1cc7315e40e4"
-                  >
-                    Introduction to TensorFlow for Artificial Intelligence,
-                    Machine Learning, and Deep Learning
-                  </a>
-                </h2>
-              </div>
-              <div className="exp-header sm-toggle">
-                <div className="exp-header-left ">
-                  <h1 className="education-heading brand-style-heading-sm">
-                    DeepLearning.AI
-                  </h1>
-                </div>
-                <div className="exp-header-right">
-                  <div className="experience-company-img brand-style-sm">
-                    <img src="coursera.svg" alt="coursera" />
-                  </div>
-                </div>
-              </div>
-              <div className="sm-toggle">
-                <h2 className="edu-sub-heading ">
-                  ➔{" "}
-                  <a
-                    target="_blank"
-                    rel="noreferrer"
-                    href="https://coursera.org/share/e3b15f0b09efcc3f290e1cc7315e40e4"
-                  >
-                    Introduction to TensorFlow for Artificial Intelligence,
-                    Machine Learning, and Deep Learning
-                  </a>
-                </h2>
-              </div>
-            </div>
-          </div>
           <h5 className="section-footer-text">
             Made with <span style={{ color: "#e74c3c" }}>&hearts;</span> in
             India
