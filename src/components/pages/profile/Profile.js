@@ -124,6 +124,9 @@ export default function Profile() {
               <div className="experience-info">
                 <ul style={{ marginLeft: "1.1rem", padding: 0 }}>
                   <li className="list-item">
+                   Developed a KT portal for new joiners in the Westpac Unit on MERN stack, detailing all the necessary study material required for them to get started in short span of time.
+                  </li>
+                  <li className="list-item">
                     Worked in Oracle EBS HR domain team for Westpac, Australia.
                   </li>
                   <li className="list-item">
