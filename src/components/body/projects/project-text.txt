@@ -1,0 +1,117 @@
+<div className="experience-content-block">
+    <div className="experience-content-left">
+        <div className="experience-heading d-none d-sm-block">
+        <h1 style={{ textTransform: "uppercase" }}>
+            WIRELESS LUGGAGE CARRIER SYSTEM
+        </h1>
+        </div>
+        {/* projects heading for sm devices */}
+        <div className="exp-header sm-toggle">
+        <div className="exp-header-left">
+            <h1 style={{ textTransform: "uppercase" }}>
+            WIRELESS LUGGAGE CARRIER SYSTEM
+            </h1>
+        </div>
+        <div className="exp-header-right">
+            <div className="experience-company-img"></div>
+        </div>
+        </div>
+        {/************** */}
+        <div className="experience-info">
+        <ul style={{ listStyle: "none", padding: 0 }}>
+            <li className="list-item">
+            ➔ Designed and developed a wireless luggage carrier using
+            various sensors like ultrasonic sensors, Bluetooth, proximity
+            sensors, IR sensor, and GPS module interfaced using Raspberry Pi
+            microprocessor. Developed a path finding algorithm based on
+            Dijkstra's algorithm using sensor data to find the best path,
+            avoiding collision, and an Android app to access the carrier.
+            </li>
+        </ul>
+        </div>
+    </div>
+    <div className="experience-content-right d-none d-sm-block">
+        <div className="experience-company-img">
+        {/* <img src="" alt="img" /> */}
+        </div>
+    </div>
+</div>
+
+<div className="experience-content-block">
+    <div className="experience-content-left">
+        <div className="experience-heading d-none d-sm-block">
+        <h1 style={{ textTransform: "uppercase" }}>
+            Android App: Vocab Me
+        </h1>
+        </div>
+        {/* projects heading for sm devices */}
+        <div className="exp-header sm-toggle">
+        <div className="exp-header-left">
+            <h1 style={{ textTransform: "uppercase" }}>
+            Android App: Vocab Me
+            </h1>
+        </div>
+        <div className="exp-header-right">
+            <div className="experience-company-img"></div>
+        </div>
+        </div>
+        {/************** */}
+        <div className="experience-info">
+        <ul style={{ listStyle: "none", padding: 0 }}>
+            <li className="list-item">
+            ➔ Developed an Android application ‘Vocab Me’ which is a
+            vocabulary improving app. Created the backend in NodeJS and API
+            endpoints for the app.
+            </li>
+        </ul>
+        </div>
+    </div>
+    <div className="experience-content-right d-none d-sm-block">
+        <div className="experience-company-img"></div>
+    </div>
+</div>
+
+<div className="experience-content-block">
+    <div className="experience-content-left">
+        <div className="experience-heading d-none d-sm-block">
+        <a
+            target="_blank"
+            rel="noreferrer"
+            href="https://www.therecompiler.com/"
+        >
+            <h1 style={{ textTransform: "uppercase" }}>
+            The Recompiler: Personal Blog
+            </h1>
+        </a>
+        </div>
+        {/* projects heading for sm devices */}
+        <div className="exp-header sm-toggle">
+        <div className="exp-header-left">
+            <a
+            target="_blank"
+            rel="noreferrer"
+            href="https://www.therecompiler.com/"
+            >
+            <h1 style={{ textTransform: "uppercase" }}>
+                The Recompiler: Personal Blog
+            </h1>
+            </a>
+        </div>
+        <div className="exp-header-right">
+            <div className="experience-company-img"></div>
+        </div>
+        </div>
+        {/************** */}
+        <div className="experience-info">
+        <ul style={{ listStyle: "none", padding: 0 }}>
+            <li className="list-item">
+            ➔ Developed a blog where I write technical content related to
+            web development, android development, and machine learning.
+            </li>
+        </ul>
+        </div>
+    </div>
+    <div className="experience-content-right d-none d-sm-block">
+        <div className="experience-company-img"></div>
+    </div>
+</div>

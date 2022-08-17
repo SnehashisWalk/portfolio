@@ -1,0 +1,36 @@
+.certification-section {
+  padding: 3rem 3rem 1rem 3rem;
+  margin-bottom: 2rem;
+  background-color: #fff;
+  position: relative;
+}
+
+.brand {
+  display: flex;
+  align-items: center;
+  margin-bottom: 1rem;
+}
+
+.brand-style {
+  background: #0056d2;
+  width: 7rem;
+}
+.brand-style-sm {
+  background: #0056d2;
+  height: 32.25px !important;
+}
+
+.brand-style > img {
+  width: 100%;
+  max-width: 100%;
+  height: 100%;
+  object-fit: cover;
+}
+
+.brand-style-heading {
+  margin: 0;
+  margin-left: 1rem;
+}
+.brand-style-heading-sm {
+  margin: 0;
+}
