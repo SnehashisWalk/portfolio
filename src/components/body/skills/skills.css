@@ -1,0 +1,61 @@
+.skills-section {
+  padding: 3rem 3rem 1rem 3rem;
+  background-color: #fff;
+  position: relative;
+}
+
+.skills-section::after {
+  content: "";
+  background: #000046;
+  display: block;
+  width: 100%;
+  height: 1px;
+}
+
+.skills-heading {
+  margin-top: 3rem;
+  margin-bottom: 1.5rem;
+}
+
+.skills-subheading {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  width: 50%;
+  list-style: none;
+}
+
+.web {
+  width: 90%;
+}
+
+.devops {
+  width: 90%;
+}
+
+.db {
+  width: 50%;
+  margin-bottom: 4rem;
+}
+
+.list-item {
+  font-size: 1.3rem;
+  font-weight: 500;
+  letter-spacing: 0.1rem;
+  font-family: "Saira Extra Condensed", sans-serif;
+}
+
+.item-img {
+  width: 20px;
+  height: 20px;
+  margin-right: 10px;
+}
+
+.section-footer-text {
+  text-align: center;
+  /* font-style: italic; */
+  margin-top: 5rem;
+  text-transform: uppercase;
+  font-weight: 600;
+  font-size: 1rem;
+}
