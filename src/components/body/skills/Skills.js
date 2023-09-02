@@ -87,7 +87,7 @@ const Skills = () => {
         <li className="list-item">Shell Scripting</li>
       </ul>
       {/* Android Development */}
-      <div className="skills-heading">
+      {/* <div className="skills-heading">
         <h1 style={{ textTransform: "uppercase" }}>
           Android Development and Frameworks
         </h1>
@@ -101,7 +101,7 @@ const Skills = () => {
           <img className="item-img" src="react-native.svg" alt="mongodb" />
           React Native
         </li>
-      </ul>
+      </ul> */}
       {/* Database */}
       <div className="skills-heading">
         <h1 style={{ textTransform: "uppercase" }}>Database Technologies</h1>
