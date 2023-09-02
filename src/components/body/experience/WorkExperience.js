@@ -4,7 +4,7 @@ const WorkExperience = () => {
   return (
     <section id="ex" className="experience-section">
       <div className="section-heading">
-        <h1 className="work-ex-heading">WORK EXPERIENE</h1>
+        <h1 className="work-ex-heading">WORK EXPERIENCE</h1>
       </div>
       {/* GalaxeSolutions */}
       <div className="experience-content-block">
@@ -28,7 +28,7 @@ const WorkExperience = () => {
                 <h2>Developer</h2>
               </div>
               <div className="experience-dates-sm">
-                <h3>Feb 2022 - Present</h3>
+                <h3>Feb 2022 - Aug 2022</h3>
               </div>
             </div>
             <div className="exp-header-right">
@@ -40,29 +40,23 @@ const WorkExperience = () => {
           <div className="experience-info">
             <ul style={{ marginLeft: "1.1rem", padding: 0 }}>
               <li className="list-item">
-                Responsible for writing and executing Terraform scripts to
-                deploy development environment on AWS.
+              Developed a proof-of-concept (POC) for deploying a web application on AWS, utilizing Route 53, CloudFront,
+Lambda@Edge, S3, and Web Application Firewall (WAF) for the architecture
               </li>
               <li className="list-item">
-                Built the POC for deploying web app on AWS, the architecture
-                involved AWS Route 53, AWS Cloudfront, AWS Lambda@Edge, AWS S3
-                bucket and WAF.
+              Constructed a fully automated DevOps pipeline for deploying source code from GitHub to AWS utilizing Jenkins,
+Terraform scripts, and Artifactory which reduced the deployment time by 40%
               </li>
               <li className="list-item">
-                Built the complete Devops pipeline for deplyoying source code
-                from Github to AWS using Jenkins, Terraform scripts and
-                maintaining the artifacts in Artifactory.
-              </li>
-              <li className="list-item">
-                Developed responsive UIs using React JS, used Redux for state
-                management, Jest and Enzyme for unit testing.
+              Designed pixel-perfect and responsive frontend UIs using React JS, Redux, and SASS which improved end-user
+satisfaction by 20%, performed unit testing using Jest and Enzyme to ensure optimal application quality
               </li>
             </ul>
           </div>
         </div>
         <div className="experience-content-right d-none d-sm-block">
           <div className="experience-dates ">
-            <h3>Feb 2022 - Present</h3>
+            <h3>Feb 2022 - Aug 2022</h3>
           </div>
           <div className="experience-company-img ">
             <img src="GalaxE-Solutions.svg" alt="img" />
@@ -99,31 +93,13 @@ const WorkExperience = () => {
           <div className="experience-info">
             <ul style={{ marginLeft: "1.1rem", padding: 0 }}>
               <li className="list-item">
-                Developed a KT portal for new joiners in the Westpac Unit on
-                MERN stack, detailing all the necessary study material required
-                for them to get started in short span of time.
+              Built the pipeline for daily extraction of Westpac employee-related data from Oracle EBS to downstream systems, by writing PL/SQL procedures and scheduling Control-M OS jobs
               </li>
               <li className="list-item">
-                Worked in Oracle EBS HR domain team for Westpac, Australia.
+              Optimized performance of the PeopleXpress web app by utilizing React JS to enhance the UI and build seamless UX, resulting in a more efficient and user-friendly experience for users
               </li>
               <li className="list-item">
-                Worked on PeopleXpress, HR portal for Westpac employees, wrote
-                backend procedures in PL/SQL.
-              </li>
-              <li className="list-item">
-                Created Control-M jobs and UNIX shellscripts to automate the
-                transfer of daily reports to downstream team.
-              </li>
-              <li className="list-item">
-                Acted as DevOps Point-of-contact (POC) for deployments of
-                projects via Bitbucket, Jenkins, Artifactory, Control-M, and
-                raised Servicenow change requests (CRQ) for project deployments.
-              </li>
-              <li className="list-item">
-                Responsible for creating XML templates for employee
-                questionnaire forms along with SQL queries which helped in
-                migrating HR portal, PeopleXpress from Oracle E-Business Suite
-                to Oracle Fusion Cloud ERP.
+              Managed project deployment process using Bitbucket, Jenkins, Artifactory, and Control-M. Proactively initiated ServiceNow change requests to facilitate seamless project deployments, ensuring timely and efficient delivery
               </li>
             </ul>
           </div>

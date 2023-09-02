@@ -9,19 +9,19 @@ const About = () => {
           SNEHASHIS <span className="text-primary">LENKA</span>
         </h1>
       </div>
+      <br></br>
       <div className="short-bio-wrapper">
         <h3 className="short-bio">
-          FULLSTACK DEVELOPER | REACT JS | JAVA | AWS
+        Graduate Student at Northeastern University, Boston | MS in Information Systems
         </h3>
       </div>
       <div className="bio-wrapper">
         <p id="bio">
-          Fullstack developer with 3 years of experience in building cloud
-          native web applications.
-          <br></br>
-          <br></br>
-          Current Tech stack: React JS on frontend, SpringBoot on backend, AWS
-          for cloud deployments
+          {/* Fullstack developer with 3 years of experience in building cloud
+          native web applications. */}
+          {/* Current Tech stack: React JS on frontend, SpringBoot on backend, AWS
+          for cloud deployments */}
+          Java | React.js | Node.js | AWS | Machine Learning
           <br></br>
         </p>
         <ul className="links">
@@ -29,7 +29,7 @@ const About = () => {
             <a
               target="_blank"
               rel="noreferrer"
-              href="https://www.linkedin.com/in/snehashislenka321/"
+              href="https://www.linkedin.com/in/slenka27/"
             >
               <FaLinkedin />
             </a>
@@ -46,7 +46,7 @@ const About = () => {
           </li>
         </ul>
         <p className="email-h">
-          Email: <span className="email">slenka321@gmail.com</span>
+          Email: <span className="email">lenka.s@northeastern.com</span>
         </p>
       </div>
     </section>
