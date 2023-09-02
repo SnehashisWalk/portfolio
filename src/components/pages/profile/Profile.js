@@ -70,7 +70,7 @@ export default function Profile() {
                 <a
                   target="_blank"
                   rel="noreferrer"
-                  href="https://www.linkedin.com/in/snehashislenka321/"
+                  href="https://www.linkedin.com/in/slenka27/"
                 >
                   <FaLinkedin />
                 </a>
@@ -87,7 +87,7 @@ export default function Profile() {
               </li>
             </ul>
             <p className="email-h">
-              Email: <span className="email">slenka321@gmail.com</span>
+              Email: <span className="email">lenka.s@northeastern.edu</span>
             </p>
           </div>
         </section>
