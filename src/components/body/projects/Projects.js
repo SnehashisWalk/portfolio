@@ -151,8 +151,8 @@ orchestration
           <div className="experience-info">
             <ul style={{ listStyle: "none", padding: 0 }}>
               <li className="list-item">
-                ➔ Built a Leetcode clone, a web app for coding problems, used React.js and Redux for the UI and state
-management, Node.js as the backend, MongoDB as the database and OpenAI’s API to calculate time complexity
+                ➔ Contributed to the internal React component library, ensuring design consistency across the pages, wrote Jest
+test cases, Gulp to transpile SCSS to CSS and Webpack to bundle the component library
               </li>
               <li className="list-item">
                 ➔ Used Monaco-Editor for the code editor, accomplished code compilation and code execution in the backend

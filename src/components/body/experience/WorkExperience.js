@@ -93,10 +93,12 @@ satisfaction by 20%, performed unit testing using Jest and Enzyme to ensure opti
           <div className="experience-info">
             <ul style={{ marginLeft: "1.1rem", padding: 0 }}>
               <li className="list-item">
-              Built the pipeline for daily extraction of Westpac employee-related data from Oracle EBS to downstream systems, by writing PL/SQL procedures and scheduling Control-M OS jobs
+              Optimized performance of the PeopleXpress web app by utilizing React JS to enhance the UI and build seamless
+UX, resulting in a more efficient and user-friendly experience for users
               </li>
               <li className="list-item">
-              Optimized performance of the PeopleXpress web app by utilizing React JS to enhance the UI and build seamless UX, resulting in a more efficient and user-friendly experience for users
+              Contributed to the internal React component library, ensuring design consistency across the pages, wrote Jest
+test cases, Gulp to transpile SCSS to CSS and Webpack to bundle the component library
               </li>
               <li className="list-item">
               Managed project deployment process using Bitbucket, Jenkins, Artifactory, and Control-M. Proactively initiated ServiceNow change requests to facilitate seamless project deployments, ensuring timely and efficient delivery
