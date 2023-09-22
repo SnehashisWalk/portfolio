@@ -35,7 +35,7 @@ const Projects = () => {
             </div>
             <div className="exp-header-right">
               <div className="experience-company-img">
-                <img src="music_store.png" alt="img" />
+                {/* <img src="music_store.png" alt="img" /> */}
               </div>
             </div>
           </div>
@@ -55,7 +55,7 @@ model to deliver contextually relevant responses, enhancing user interactions an
         </div>
         <div className="experience-content-right d-none d-sm-block">
           <div className="experience-company-img">
-            <img src="music_store.png" alt="img" />
+            {/* <img src="music_store.png" alt="img" /> */}
           </div>
         </div>
       </div>
@@ -88,7 +88,7 @@ model to deliver contextually relevant responses, enhancing user interactions an
             </div>
             <div className="exp-header-right">
               <div className="experience-company-img">
-                <img src="music_store.png" alt="img" />
+                {/* <img src="music_store.png" alt="img" /> */}
               </div>
             </div>
           </div>
@@ -110,7 +110,7 @@ orchestration
         </div>
         <div className="experience-content-right d-none d-sm-block">
           <div className="experience-company-img">
-            <img src="music_store.png" alt="img" />
+            {/* <img src="music_store.png" alt="img" /> */}
           </div>
         </div>
       </div>
@@ -143,7 +143,7 @@ orchestration
             </div>
             <div className="exp-header-right">
               <div className="experience-company-img">
-                <img src="music_store.png" alt="img" />
+                {/* <img src="music_store.png" alt="img" /> */}
               </div>
             </div>
           </div>
@@ -163,7 +163,7 @@ utilizing Node.js streams, and Promises to execute the code across all test case
         </div>
         <div className="experience-content-right d-none d-sm-block">
           <div className="experience-company-img">
-            <img src="music_store.png" alt="img" />
+            {/* <img src="music_store.png" alt="img" /> */}
           </div>
         </div>
       </div>
