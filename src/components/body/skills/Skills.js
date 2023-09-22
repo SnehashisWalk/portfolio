@@ -23,8 +23,16 @@ const Skills = () => {
           Python
         </li>
         <li className="list-item">
-          <img className="item-img" src="kotlin.png" alt="python" />
-          Kotlin
+          <img className="item-img" src="ts-logo-256.svg" alt="typescript" />
+          TypeScript
+        </li>
+        <li className="list-item">
+          <img className="item-img" src="swift-icon.svg" alt="swift" />
+          Swift
+        </li>
+        <li className="list-item">
+          <img className="item-img" src="swiftui.svg" alt="swiftui" />
+          SwiftUI
         </li>
       </ul>
 
@@ -36,7 +44,7 @@ const Skills = () => {
       <ul className="skills-subheading web">
         <li className="list-item">
           <img className="item-img" src="html.svg" alt="html" />
-          HTML
+          HTML5
         </li>
         <li className="list-item">
           <img className="item-img" src="css.svg" alt="css" />
@@ -51,22 +59,42 @@ const Skills = () => {
           Bootstrap
         </li>
         <li className="list-item">
+          <img className="item-img" src="sass-1.svg" alt="sass" />
+          SASS
+        </li>
+        <li className="list-item">
           <img className="item-img" src="react.svg" alt="react" />
           React.js
         </li>
         <li className="list-item">
-          <img className="item-img" src="spring.svg" alt="spring boot" />
-          Spring Boot
+          <img className="item-img" src="redux.svg" alt="redux" />
+          Redux
+        </li>
+        <li className="list-item">
+          <img className="item-img" src="webpack.svg" alt="webpack" />
+          Webpack
+        </li>
+        <li className="list-item">
+          <img className="item-img" src="gulp.svg" alt="gulp" />
+          Gulp
+        </li>
+        <li className="list-item">
+          <img className="item-img" src="chromeDevTool.svg" alt="chrome-dev-tool" />
+          Chrome DevTools
         </li>
       </ul>
       {/* Cloud */}
       <div className="skills-heading">
-        <h1 style={{ textTransform: "uppercase" }}>Cloud and Devops</h1>
+        <h1 style={{ textTransform: "uppercase" }}>Cloud and Infra</h1>
       </div>
       <ul className="skills-subheading devops">
         <li className="list-item">
           <img className="item-img" src="aws.svg" alt="aws" />
           AWS
+        </li>
+        <li className="list-item">
+          <img className="item-img" src="gcp.svg" alt="gcp" />
+          GCP
         </li>
         <li className="list-item">
           <img className="item-img" src="terraform.svg" alt="terraform" />
@@ -79,6 +107,10 @@ const Skills = () => {
         <li className="list-item">
           <img className="item-img" src="git.png" alt="git" />
           Git
+        </li>
+        <li className="list-item">
+          <img className="item-img" src="airflow.png" alt="airflow" />
+          Airflow
         </li>
         <li className="list-item">
           <img className="item-img" src="jenkins.png" alt="jenkins" />
@@ -116,10 +148,38 @@ const Skills = () => {
           MongoDB
         </li>
         <li className="list-item">
-          <img className="item-img" src="oracle.svg" alt="oracle" />
-          Oracle
+          <img className="item-img" src="postgresql.svg" alt="postgresql" />
+          PostgreSQL
         </li>
       </ul>
+
+      {/* ML/ AI Libraries */}
+      <div className="skills-heading">
+        <h1 style={{ textTransform: "uppercase" }}>ML/ AI Libraries</h1>
+      </div>
+      <ul className="skills-subheading ml">
+        <li className="list-item">
+          <img className="item-img" src="tensorflow.svg" alt="tensorflow" />
+          Tensorflow.js
+        </li>
+        <li className="list-item">
+          <img className="item-img" src="numpy.svg" alt="numpy" />
+          Numpy
+        </li>
+        <li className="list-item">
+          <img className="item-img" src="scikit.png" alt="scikit-learn" />
+          Scikit-learn
+        </li>
+        <li className="list-item">
+          <img className="item-img" src="pandas.svg" alt="pandas" />
+          Pandas
+        </li>
+        <li className="list-item">
+          <img className="item-img" src="matplotlib.png" alt="matplotlib" />
+          Matplotlib
+        </li>
+      </ul>
+
     </section>
   );
 };
